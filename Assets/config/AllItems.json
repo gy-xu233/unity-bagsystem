@@ -1,0 +1,51 @@
+[
+  {
+    "ItemID": 0,
+    "ItemName": "Ä¾½£",
+    "ItemIcon": "Icon0",
+    "ItemCount": 1,
+    "ItemType": 1
+  },
+  {
+    "ItemID": 1,
+    "ItemName": "Ê¯½£",
+    "ItemIcon": "Icon1",
+    "ItemCount": 1,
+    "ItemType": 1
+  },
+  {
+    "ItemID": 2,
+    "ItemName": "ÇàÍ­½£",
+    "ItemIcon": "Icon2",
+    "ItemCount": 1,
+    "ItemType": 1
+  },
+  {
+    "ItemID": 3,
+    "ItemName": "Ìú½£",
+    "ItemIcon": "Icon3",
+    "ItemCount": 1,
+    "ItemType": 1
+  },
+  {
+    "ItemID": 4,
+    "ItemName": "½ð´¯Ò©",
+    "ItemIcon": "Icon4",
+    "ItemCount": 5,
+    "ItemType": 2
+  },
+  {
+    "ItemID": 5,
+    "ItemName": "µÀµÂ¾­",
+    "ItemIcon": "Icon5",
+    "ItemCount": 1,
+    "ItemType": 0
+  },
+  {
+    "ItemID": 6,
+    "ItemName": "Ô¿³×",
+    "ItemIcon": "Icon6",
+    "ItemCount": 1,
+    "ItemType": -1
+  }
+]
