@@ -35,6 +35,34 @@
     "ItemType": 2
   },
   {
+    "ItemID": 7,
+    "ItemName": "馒头",
+    "ItemIcon": "Icon7",
+    "ItemCount": 100,
+    "ItemType": 2
+  },
+  {
+    "ItemID": 8,
+    "ItemName": "酒",
+    "ItemIcon": "Icon8",
+    "ItemCount": 68,
+    "ItemType": 2
+  },
+  {
+    "ItemID": 9,
+    "ItemName": "牛肉",
+    "ItemIcon": "Icon9",
+    "ItemCount": 11,
+    "ItemType": 2
+  },
+  {
+    "ItemID": 10,
+    "ItemName": "膏药",
+    "ItemIcon": "Icon10",
+    "ItemCount": 1,
+    "ItemType": 2
+  },
+  {
     "ItemID": 5,
     "ItemName": "道德经",
     "ItemIcon": "Icon5",

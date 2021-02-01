@@ -106,15 +106,39 @@ public class BagContentControlScripts : MonoBehaviour
 
     public void ConsumableButtonClick(int ItemIndex, int num)
     {
+        AllItemData[ItemIndex].ItemCount -= num;
+        BagItem.ItemTypes itemType = AllItemData[ItemIndex].ItemType;
+        if (AllItemData[ItemIndex].ItemCount == 0)
+        {
+            AllItemData.RemoveAt(ItemIndex);
+            InformationPanel.ClearInformationPanel();
+        }
+        RefreshBagContent(itemType);
         Debug.Log(AllItemData[ItemIndex].ItemName + "被使用");
     }
     public void AbandonButtonClick(int ItemIndex, int num)
     {
+        AllItemData[ItemIndex].ItemCount -= num;
+        BagItem.ItemTypes itemType = AllItemData[ItemIndex].ItemType;
+        if (AllItemData[ItemIndex].ItemCount == 0)
+        {
+            AllItemData.RemoveAt(ItemIndex);
+            InformationPanel.ClearInformationPanel();
+        }
+        RefreshBagContent(itemType);
         Debug.Log(AllItemData[ItemIndex].ItemName + "被丢弃");
 
     }
     public void EquipButtonClick(int ItemIndex)
     {
+        AllItemData[ItemIndex].ItemCount -= 1;
+        BagItem.ItemTypes itemType = AllItemData[ItemIndex].ItemType;
+        if (AllItemData[ItemIndex].ItemCount == 0)
+        {
+            AllItemData.RemoveAt(ItemIndex);
+            InformationPanel.ClearInformationPanel();
+        }
+        RefreshBagContent(itemType);
         Debug.Log(AllItemData[ItemIndex].ItemName + "被装备");
 
     }
